@@ -48,10 +48,13 @@
     height: 90px;
     width: 45px;
     font-size: 15px;
-    background-color: rgba(56, 175, 229, 0.9);
+    background-color: rgb(56, 175, 229);
     text-decoration: none;
     color: #ffffff;
     position: relative;
+}
+.slider a:hover {
+    background-color: rgba(56, 175, 229, 0.9);
 }
 .left {
     border-radius: 90px 0 0 90px;
@@ -62,8 +65,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
 }
 
 .right {
@@ -74,6 +76,6 @@
     display: block;
     position: absolute;
     top: 50%;
-    right: 50%;
-    transform: rotate(180deg) translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
