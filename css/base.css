@@ -20,7 +20,7 @@
     background-color: #ffffff;
     width: 1024px;
     margin: auto;
-    padding: 60px;
+    padding: 60px 60px 90px 60px;
 }
 .details-btn {
     display: inline-block;
@@ -37,4 +37,11 @@
 
 .details-btn:hover {
     border: 1px solid #000;
+}
+.copyrights {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
 }

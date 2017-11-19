@@ -39,28 +39,36 @@ footer {
 }
 .socials {
     margin: 0 auto;
-    padding: 25px 0px;
+    padding: 25px 0;
     text-align: center;
 }
 .icon {
     display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+.icon a {
+    fill: #e4b265;
+    display: block;
     width: 40px;
     height: 40px;
     border-radius: 100%;
     background-color: #ffffff;
-    margin-right: 10px;
 }
-.icon a {
-    background-position: center;
-    background-repeat: no-repeat;
+.icon svg {
+    position: absolute;
+    width: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+.icon svg:hover {
+    fill: #cd8e2b;
+}
+
 .icon:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
-.twitter {}
-.facebook {}
-.google+ {}
-.linkedin {}
 .move-up {
     display: block;
     width: 30px;
@@ -76,5 +84,5 @@ footer {
     transform: translateY(-100%);
 }
 .move-up:hover {
-    background-color: rgba(56, 175, 229, 0.8)
+    background-color: rgba(56, 175, 229, 0.8);
 }
