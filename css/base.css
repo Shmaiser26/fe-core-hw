@@ -22,3 +22,19 @@
     margin: auto;
     padding: 60px;
 }
+.details-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: #faf6fa;
+    border-radius: 5px;
+    border: 1px solid #9f9696;
+    padding: 4px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.details-btn:hover {
+    border: 1px solid #000;
+}
