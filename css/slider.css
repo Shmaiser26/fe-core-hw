@@ -1,44 +1,39 @@
 .slider {
     margin-bottom: 60px;
+    position: relative;
 }
 .slider-img {
-    display: block;
-    background-image: url("../img/slider-img.jpg");
-    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 .slider-text {
-    margin-top: 220px;
-    margin-bottom: 115px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 .slider-text span {
+    display: inline-block;
     font-family: 'Pathway Gothic One', sans-serif;
     text-transform: uppercase;
-    display: block;
-    float: left;
     line-height: 60px;
     padding: 0 15px;
 }
 .slider-text span:first-child {
-    display: block;
+    background-color: #ffffff;
     font-size: 22px;
     color: #263555;
-    background-color: #ffffff;
-    float: left;
 }
 .slider-text span:last-child {
     display: block;
-    font-size: 34px;
-    color: #263555;
     background-color: #38afe5;
-    float: left;
-    clear: left;
+    font-size: 34px;
 }
+
 .slider-controls {
-    margin-left: 40px;
-    margin-bottom: 40px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
     display: block;
     font-size: 0;
 

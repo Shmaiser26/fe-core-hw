@@ -1,6 +1,7 @@
-.top-menu {
-    margin: auto;
-    height: auto;
+header {
+    position: relative;
+    padding: 50px 0px;
+    margin: 50px 0px;
 }
 .main-menu {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -9,8 +10,6 @@
     text-align: center;
     margin: auto;
     text-transform: uppercase;
-    margin-top: 45px;
-    margin-bottom: 50px;
     position: relative;
 }
 .menu-item {
@@ -19,7 +18,13 @@
     list-style: none;
     position: relative;
 }
-.menu-item>a {
+.menu-item:nth-child(3) {
+    margin-right: 80px;
+}
+.menu-item:nth-child(4) {
+    margin-left: 80px;
+}
+ .menu-item>a {
     text-decoration: none;
     padding: 10px 30px;
     color: #fff;
@@ -35,16 +40,19 @@
     height: 140px;
     width: 140px;
     border-radius: 100%;
-    position: relative;
-    display: inline-block;
-}
-.logo img {
     display: block;
+    text-align: center;
+    color: #263555;
+    text-transform: uppercase;
+    font-family: 'Dorsa', sans-serif;
+    font-size: 59px;
+    line-height: 140px;
     position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 /* SUBMENU */
 .submenu {
     list-style: none;
