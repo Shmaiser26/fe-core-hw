@@ -1,5 +1,7 @@
 header {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px 0px;
     margin: 50px 0px;
 }
@@ -27,30 +29,27 @@ header {
  .menu-item>a {
     text-decoration: none;
     padding: 10px 30px;
-    color: #fff;
+    color: var(--primary-light-color);
 }
 .menu-item>a:hover {
-    color: #263555;
+    color: var(--primary-dark-color);
 }
 .menu-item:hover>.submenu {
     display: block;
 }
 .logo {
-    background-color: #fff;
+    background-color: var(--primary-light-color);
     height: 140px;
     width: 140px;
     border-radius: 100%;
     display: block;
     text-align: center;
-    color: #263555;
+    color: var(--primary-dark-color);
     text-transform: uppercase;
     font-family: 'Dorsa', sans-serif;
     font-size: 59px;
     line-height: 140px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* SUBMENU */
@@ -60,7 +59,7 @@ header {
     display: none;
     text-align: center;
     margin: auto;
-    background-color: #fff;
+    background-color: var(--primary-light-color);
     border-radius: 3px;
     padding: 10px;
     top: 35px;
@@ -73,7 +72,7 @@ header {
     height: 0;
     border-style: solid;
     border-width: 0 2.5px 3px 2.5px;
-    border-color: transparent transparent #ffffff transparent;
+    border-color: transparent transparent var(--primary-light-color) transparent;
     position: absolute;
     top: 0px;
     left: 50%;
@@ -93,5 +92,5 @@ header {
     line-height: 20px;
 }
 .submenu-item a:hover {
-    color: #263555;
+    color: var(--primary-dark-color);
 }

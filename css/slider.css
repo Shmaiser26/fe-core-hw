@@ -8,9 +8,10 @@
 }
 .slider-text {
     position: absolute;
-    top: 50%;
     left: 0;
+    top: 50%;
     transform: translateY(-50%);
+
 }
 .slider-text span {
     display: inline-block;
@@ -20,13 +21,13 @@
     padding: 0 15px;
 }
 .slider-text span:first-child {
-    background-color: #ffffff;
+    background-color: var(--primary-light-color);
     font-size: 22px;
     color: #263555;
 }
 .slider-text span:last-child {
     display: block;
-    background-color: #38afe5;
+    background-color: var(--accent-color);
     font-size: 34px;
 }
 
@@ -43,9 +44,9 @@
     height: 90px;
     width: 45px;
     font-size: 15px;
-    background-color: rgb(56, 175, 229);
+    background-color: var(--accent-color);
     text-decoration: none;
-    color: #ffffff;
+    color: var(--primary-light-color);
     position: relative;
 }
 .slider a:hover {

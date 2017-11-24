@@ -1,17 +1,17 @@
 .bottom-info {
     font-size: 0;
+    display: flex;
+    justify-content: space-between;
 }
 .suggestions {
-    display: inline-block;
-    width: 595px;
-    margin-right: 20px;
+    flex-basis: 67%;
 }
 .suggestions-menu {
     font-size: 0;
     margin-bottom: -1px;
+    display: flex;
 }
 .suggestions-menu-item {
-    display: inline-block;
     list-style-type: none;
     width: 125px;
     margin-right: -1px;
@@ -34,60 +34,65 @@
     text-decoration: underline;
 }
 .suggestions-menu-item .active {
-    border-bottom: 1px solid #ffffff;
-    color: #38afe5;
+    border-bottom: 1px solid var(--primary-light-color);
+    color: var(--accent-color);
 }
 .suggestions-list {
     border: 1px solid #dedbdb;
     padding: 40px 15px;
 }
 .suggestions-list-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 .suggestions-list-item:last-child {
     margin-bottom: 0;
 }
 .suggestions-list-item img {
-    float: left;
-    margin-right: 20px;
-    clear: left;
+    flex-basis: 35%;  
+}
+.suggestion-list-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 63%;
 }
 .suggestions-list-item-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #263555;
+    color: var(--primary-dark-color);
 }
-.suggestions-list-item-info {
+.suggestions-list-item-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    color: #263555;
+    color: var(--primary-dark-color);
     margin-bottom: 15px;
 }
-.suggestions-list-item-info span {
+.suggestions-list-item-text span {
     display: block;
     color: #000000;
     margin-bottom: 20px;
 }
-.suggestions-list-item-info span a {
+.suggestions-list-item-text span a {
     text-decoration: none;
     color: #fa7e7e;
-
 }
 .suggestions-btn {
-    float: right;
+    align-self: flex-end;
     margin-right: 10px;
 }
 .aside {
-    display: inline-block;
-    width: 285px;
+    flex-basis: 31%;
     border: 1px solid #dedbdb;
     vertical-align: top;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #263555;
+    color: var(--primary-dark-color);
 }
 .aside-title {
-    color: #263555;
+    color: var(--primary-dark-color);
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -97,7 +102,7 @@
     border-bottom: 1px solid #dedbdb;
 }
 .aside-content {
-    padding: 40px 20px;
+    padding: 40px 20px 40px 20px;
 }
 .aside-content form input {
     margin-top: 20px;
@@ -120,7 +125,7 @@
     background-image: url("../img/small-arr-right.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #38afe5;
+    background-color: var(--accent-color);
     display: inline-block;
     width: 13px;
     height: 13px;

@@ -5,13 +5,15 @@
     font-family: 'Pathway Gothic One', sans-serif;
     text-transform: uppercase;
     font-size: 30px;
-    color: #263555;
+    color: var(--primary-dark-color);
     margin-bottom: 50px;
 }
+.top-dest-promo {
+    display: flex;
+    justify-content: space-between;
+}
 .top-dest-promo-item {
-    float: left;
     width: 32%;
-    margin-right: 2%;
     position: relative;
     transition: all ease-out 0.5s;
 }
@@ -52,5 +54,5 @@
     margin-bottom: 20px;
 }
 .promo-btn {
-    float: right;
+
 }

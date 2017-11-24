@@ -62,7 +62,7 @@ text-transform: lowercase;
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: #ffffff;
+    background-color: var(--primary-light-color);
 }
 .socials svg {
     position: absolute;
