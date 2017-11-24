@@ -19,7 +19,7 @@ footer {
 .footer-menu-item {
     margin-bottom: 10px;
     list-style-type: none;
-    margin-right:80px; 
+    margin-right: 80px;
 }
 .footer-menu-item:nth-child(even) {
     margin-bottom: 0;
@@ -35,7 +35,7 @@ footer {
     font-size: 12px;
 }
 .contacts a:last-child {
-text-transform: lowercase;
+    text-transform: lowercase;
 }
 .footer-menu-item a {
     display: block;
@@ -52,29 +52,40 @@ text-transform: lowercase;
     text-align: center;
 }
 .socials div {
-    display: inline-block;
-    margin-right: 10px;
-    position: relative;
+ display: inline-block;
+ margin-right: 10px;
 }
-.socials a {
-    fill: #e4b265;
+.socials div:last-child {
+    margin-right: 0px;
+}
+.socials .social-icon {
     display: block;
-    width: 40px;
-    height: 40px;
+    padding: 20px;
     border-radius: 100%;
     background-color: var(--primary-light-color);
 }
-.socials svg {
-    position: absolute;
-    width: 15px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.socials svg:hover {
-    fill: #cd8e2b;
-}
 
+.twitter {
+    width: 24px;
+    height: 24px;
+    background: url("../img/social-icon-sprites.png") -54px -54px;
+}
+.linkedin {
+    width: 24px;
+    height: 24px;
+    background: url("../img/social-icon-sprites.png") -54px -10px;
+}
+.google {
+    width: 24px;
+    height: 24px;
+    background: url("../img/social-icon-sprites.png") -10px -10px;
+}
+.facebook {
+    width: 24px;
+    height: 24px;
+    background: url("../img/social-icon-sprites.png") -54px -10px;
+
+}
 .socials:last-child {
     margin-right: 0;
 }
