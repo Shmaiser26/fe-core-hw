@@ -52,11 +52,11 @@ footer {
     text-align: center;
 }
 .socials div {
- display: inline-block;
- margin-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
 }
 .socials div:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .socials .social-icon {
     display: block;

@@ -51,7 +51,7 @@
     margin-bottom: 0;
 }
 .suggestions-list-item img {
-    flex-basis: 35%;  
+    flex-basis: 35%;
 }
 .suggestion-list-item-info {
     display: flex;
@@ -102,7 +102,7 @@
     border-bottom: 1px solid #dedbdb;
 }
 .aside-content {
-    padding: 40px 20px 40px 20px;
+    padding: 40px 20px;
 }
 .aside-content form input {
     margin-top: 20px;

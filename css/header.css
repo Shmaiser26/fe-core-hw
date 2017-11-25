@@ -2,8 +2,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px;
-    margin: 50px 0px;
+    padding: 50px 0;
+    margin: 50px 0;
 }
 .main-menu {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -26,15 +26,15 @@ header {
 .menu-item:nth-child(4) {
     margin-left: 80px;
 }
- .menu-item>a {
+.menu-item > a {
     text-decoration: none;
     padding: 10px 30px;
     color: var(--primary-light-color);
 }
-.menu-item>a:hover {
+.menu-item > a:hover {
     color: var(--primary-dark-color);
 }
-.menu-item:hover>.submenu {
+.menu-item:hover > .submenu {
     display: block;
 }
 .logo {
@@ -74,7 +74,7 @@ header {
     border-width: 0 2.5px 3px 2.5px;
     border-color: transparent transparent var(--primary-light-color) transparent;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 50%;
     transform: translate(-50%,-3px);
 }
