@@ -39,6 +39,7 @@
 }
 .principies-list {
     list-style-type: none;
+    counter-reset: num;
 }
 
 .principies-list-item {
