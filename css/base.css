@@ -15,8 +15,15 @@
     width: 1024px;
     margin: auto;
 }
-.substrate {
+.main-content {
     padding: 60px 60px 90px;
+}
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--primary-dark-color);
+    margin-bottom: 50px;    
 }
 .details-btn {
     display: inline-block;

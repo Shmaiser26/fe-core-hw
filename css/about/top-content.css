@@ -1,0 +1,74 @@
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.agency-profile {
+    flex-basis: 70%;
+    position: relative;
+    clear: both;
+}
+.profile-img {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.profile-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #4e5050;
+}
+.profile-text p {
+    margin-bottom: 20px;
+}
+.profile-text p:first-child {
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--primary-dark-color);
+}
+.profile-text p:last-child {
+    margin-bottom: 0px;
+}
+.right-section {
+    flex-basis: 25%;
+}
+.our-principies {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #4e5050;
+}
+.principies-list {
+    list-style-type: none;
+}
+
+.principies-list-item {
+    margin-bottom: 30px;
+}
+.principies-list-item h3 {
+    font-size: 15px;
+    color: var(--primary-dark-color);
+}
+.principies-list-item p {
+    display: block;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+.principies-list-item:last-child {
+    margin-bottom: 0;
+}
+.principies-list-item::before {
+    counter-increment: num;
+    content: counter(num);
+    display: block;
+    background-color: var(--accent-color);
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    border: 1px solid #4a94b5;
+    color: #ffffff;
+    text-align: center;
+    line-height: 28px;
+    float: left;
+    margin-right: 10px;
+}
