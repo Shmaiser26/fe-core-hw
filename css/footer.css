@@ -66,24 +66,26 @@ footer {
 }
 
 .twitter {
-    width: 24px;
-    height: 24px;
-    background: url("../img/social-icon-sprites.png") -54px -54px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/social-icon-sprites.png") -66px -56px;
+
 }
 .linkedin {
-    width: 24px;
-    height: 24px;
-    background: url("../img/social-icon-sprites.png") -54px -10px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/social-icon-sprites.png") -40px -42px;
+
 }
 .google {
-    width: 24px;
-    height: 24px;
-    background: url("../img/social-icon-sprites.png") -10px -10px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/social-icon-sprites.png") -10px -20px;
 }
 .facebook {
-    width: 24px;
-    height: 24px;
-    background: url("../img/social-icon-sprites.png") -54px -10px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/social-icon-sprites.png") -46px -10px;
 
 }
 .socials:last-child {
