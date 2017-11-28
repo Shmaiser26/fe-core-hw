@@ -5,6 +5,7 @@
 .slider-img {
     height: 100%;
     width: 100%;
+    display: block;
 }
 .slider-text {
     position: absolute;
@@ -35,13 +36,12 @@
     position: absolute;
     bottom: 40px;
     left: 40px;
-    display: block;
+    display: flex;
     font-size: 0;
 
 }
 .slider-controls a {
-    display: inline-block;
-    height: 90px;
+     height: 90px;
     width: 45px;
     font-size: 15px;
     background-color: var(--accent-color);

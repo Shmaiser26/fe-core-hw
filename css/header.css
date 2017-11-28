@@ -7,16 +7,14 @@ header {
 }
 .main-menu {
     font-family: 'Pathway Gothic One', sans-serif;
-    vertical-align: middle;
     font-size: 28px;
     text-align: center;
     margin: auto;
     text-transform: uppercase;
     position: relative;
+    display: flex;
 }
 .menu-item {
-    display: inline-block;
-    vertical-align: middle;
     list-style: none;
     position: relative;
 }
@@ -28,7 +26,8 @@ header {
 }
 .menu-item > a {
     text-decoration: none;
-    padding: 10px 30px;
+    padding-right: 30px;
+    padding-left: 30px;
     color: var(--primary-light-color);
 }
 .menu-item > a:hover {
@@ -38,6 +37,7 @@ header {
     display: block;
 }
 .logo {
+    text-decoration: none;
     background-color: var(--primary-light-color);
     height: 140px;
     width: 140px;

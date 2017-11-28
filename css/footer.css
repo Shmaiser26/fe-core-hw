@@ -8,25 +8,29 @@ footer {
     font-weight: 200;
     background-color: #30455b;
     color: #ffffff;
-}
-.footer-wrapper {
     padding: 40px 130px;
+    display: flex;
+    justify-content: space-between;
 }
+
 .footer-menu {
-    column-count: 3;
-    display: inline-block;
+    display: flex;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .footer-menu-item {
     margin-bottom: 10px;
     list-style-type: none;
-    margin-right: 80px;
+    margin-right: 15%;
 }
-.footer-menu-item:nth-child(even) {
-    margin-bottom: 0;
-}
+
 .contacts {
-    display: inline-block;
+    flex-basis: 20%;
     font-size: 18px;
+}
+.contacts h5 {
+    font-weight: inherit;
 }
 .contacts a {
     color: inherit;
@@ -49,44 +53,40 @@ footer {
 .socials {
     margin: 0 auto;
     padding: 25px 0;
-    text-align: center;
-}
-.socials div {
-    display: inline-block;
-    margin-right: 10px;
-}
-.socials div:last-child {
-    margin-right: 0;
+    justify-content: center;
+    display: flex;
 }
 .socials .social-icon {
     display: block;
     padding: 20px;
     border-radius: 100%;
     background-color: var(--primary-light-color);
+    margin-right: 10px;
+}
+.social-icon:last-child {
+    margin-right: 0;
 }
 
 .twitter {
     width: 16px;
     height: 16px;
-    background: url("../img/social-icon-sprites.png") -66px -56px;
+    background: url("../img/social-icon-sprites.png") -34px -34px;
 
-}
-.linkedin {
-    width: 16px;
-    height: 16px;
-    background: url("../img/social-icon-sprites.png") -40px -42px;
-
-}
-.google {
-    width: 16px;
-    height: 16px;
-    background: url("../img/social-icon-sprites.png") -10px -20px;
 }
 .facebook {
     width: 16px;
     height: 16px;
-    background: url("../img/social-icon-sprites.png") -46px -10px;
-
+    background: url("../img/social-icon-sprites.png") -34px 2px;
+}
+.google {
+    width: 16px;
+    height: 16px;
+    background: url("../img/social-icon-sprites.png") 4px 3px;
+}
+.linkedin {
+    width: 16px;
+    height: 16px;
+    background: url("../img/social-icon-sprites.png") 0px -33px;
 }
 .socials:last-child {
     margin-right: 0;

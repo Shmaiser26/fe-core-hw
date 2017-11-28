@@ -6,16 +6,14 @@
     justify-content: space-between;
 }
 .top-dest-promo-item {
-    width: 32%;
+    flex-basis: 32%;
     position: relative;
-    transition: all ease-out 0.5s;
 }
 .top-dest-promo-item:last-child {
     margin-right: 0;
 }
 .top-dest-promo-item:hover > .promo-item-info {
     display: block;
-    transition: all ease-out 0.5s;
 }
 .top-dest-promo-item img {
     display: block;
@@ -46,5 +44,4 @@
     font-size: 10px;
     margin-bottom: 20px;
 }
-.promo-btn {
-    }
+.promo-btn {}
