@@ -30,7 +30,7 @@ h1 {
     color: var(--primary-dark-color);
     margin-bottom: 3.125rem;
 }
-.details-btn {
+.btn {
     display: inline-block;
     text-decoration: none;
     text-transform: capitalize;
@@ -43,7 +43,7 @@ h1 {
     font-size: 0.75rem;
 }
 
-.details-btn:hover {
+.btn:hover {
     border: 1px solid #000;
 }
 .copyrights {
