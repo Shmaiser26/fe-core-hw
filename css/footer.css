@@ -1,14 +1,14 @@
 footer {
     position: relative;
-    width: 1024px;
+    width: 64rem;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
     background-color: #30455b;
     color: #ffffff;
-    padding: 40px 130px;
+    padding: 2.5rem 8.125rem;
     display: flex;
     justify-content: space-between;
 }
@@ -20,14 +20,14 @@ footer {
     justify-content: space-between;
 }
 .footer-menu-item {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     list-style-type: none;
     margin-right: 15%;
 }
 
 .contacts {
     flex-basis: 20%;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .contacts h5 {
     font-weight: inherit;
@@ -36,7 +36,7 @@ footer {
     color: inherit;
     text-decoration: none;
     display: block;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .contacts a:last-child {
     text-transform: lowercase;
@@ -52,49 +52,43 @@ footer {
 
 .socials {
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 1.56rem 0;
     justify-content: center;
     display: flex;
 }
 .socials .social-icon {
     display: block;
-    padding: 20px;
+    padding: 1.25rem;
     border-radius: 100%;
     background-color: var(--primary-light-color);
-    margin-right: 10px;
+    margin-right: 0.625rem;
+    width: 1rem;
+    height: 1rem;
 }
 .social-icon:last-child {
     margin-right: 0;
 }
 
 .twitter {
-    width: 16px;
-    height: 16px;
     background: url("../img/social-icon-sprites.png") -34px -34px;
-
 }
 .facebook {
-    width: 16px;
-    height: 16px;
+
     background: url("../img/social-icon-sprites.png") -34px 2px;
 }
 .google {
-    width: 16px;
-    height: 16px;
     background: url("../img/social-icon-sprites.png") 4px 3px;
 }
 .linkedin {
-    width: 16px;
-    height: 16px;
-    background: url("../img/social-icon-sprites.png") 0px -33px;
+        background: url("../img/social-icon-sprites.png") 0px -33px;
 }
 .socials:last-child {
     margin-right: 0;
 }
 .move-up {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     background-color: #38afe5;
     border-radius: 100%;
     background-image: url("../img/small-arr-top.svg");

@@ -18,32 +18,32 @@
     display: inline-block;
     font-family: 'Pathway Gothic One', sans-serif;
     text-transform: uppercase;
-    line-height: 60px;
-    padding: 0 15px;
+    line-height: 3.75rem 0px;
+    padding: 0 0.937rem;
 }
 .slider-text span:first-child {
     background-color: var(--primary-light-color);
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #263555;
 }
 .slider-text span:last-child {
     display: block;
     background-color: var(--accent-color);
-    font-size: 34px;
+    font-size: 2.125rem;
 }
 
 .slider-controls {
     position: absolute;
-    bottom: 40px;
-    left: 40px;
+    bottom: 2.5rem;
+    left: 2.5rem;
     display: flex;
     font-size: 0;
 
 }
 .slider-controls a {
-     height: 90px;
-    width: 45px;
-    font-size: 15px;
+     height: 5.625rem;
+    width: 2.812rem;
+    font-size: 0.937rem;
     background-color: var(--accent-color);
     text-decoration: none;
     color: var(--primary-light-color);
@@ -53,7 +53,7 @@
     background-color: rgba(56, 175, 229, 0.9);
 }
 .left {
-    border-radius: 90px 0 0 90px;
+    border-radius: 5.625rem 0 0 5.625rem;
 }
 .left:before {
     content: url("../img/arrow-left.svg");
@@ -65,7 +65,7 @@
 }
 
 .right {
-    border-radius: 0 90px 90px 0;
+    border-radius: 0 5.625rem 5.625rem 0;
 }
 .right:before {
     content: url("../img/arrow-right.svg");

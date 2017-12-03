@@ -7,27 +7,27 @@
     flex-basis: 70%;
 }
 .what-we-offer p {
-    font-size: 13px;
+    font-size: 0.812rem;
     color: #4e5050;
 }
 .what-we-offer p:first-of-type {
-    font-size: 15px;
+    font-size: 0.937rem;
     color: var(--primary-dark-color);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .what-we-offer p:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 1.785rem;
 }
 .what-we-offer-list {
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--primary-dark-color);
-    font-size: 15px;
+    font-size: 0.937rem;
     columns: 2;
 }
 .what-we-offer-list li {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     display: flex;
     align-items: center;
 }
@@ -36,24 +36,24 @@
     content: "";
     background-image: url("../../img/arrow-right.png");
     background-repeat: no-repeat;
-    height: 7px;
-    width: 10px;
-    margin-right: 10px;
+    height: 0.437rem;
+    width: 0.625rem;
+    margin-right: 0.625rem;
 }
 .testimonial h4 {
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--primary-dark-color);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .testimonial span {
-    font-size: 13px;
+    font-size: 0.437rem;
     text-align: center;
     display: block;
     }
 .quote {
-    padding: 20px;
-    font-size: 15px;
+    padding: 1.25rem;
+    font-size: 0.937rem;
     color: var(--primary-dark-color);
     margin-bottom: 60px;
 }

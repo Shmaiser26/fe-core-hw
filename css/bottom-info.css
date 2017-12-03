@@ -13,7 +13,7 @@
 }
 .suggestions-menu-item {
     list-style-type: none;
-    width: 125px;
+    width: 7.812rem;
     margin-right: -1px;
 }
 .suggestions-list-item:last-child {
@@ -21,13 +21,13 @@
 }
 .suggestions-menu-item a {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 19px;
+    font-size: 1.187rem;
     color: #6b7488;
     display: block;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 30px;
+    line-height: 1.875rem;
     border: 1px solid #dedbdb;
 }
 .suggestions-menu-item a:hover {
@@ -39,13 +39,13 @@
 }
 .suggestions-list {
     border: 1px solid #dedbdb;
-    padding: 40px 15px;
+    padding: 2.5rem 0.937rem;
 }
 .suggestions-list-item {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .suggestions-list-item:last-child {
     margin-bottom: 0;
@@ -61,19 +61,19 @@
 }
 .suggestions-list-item-title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 0.937rem;
     color: var(--primary-dark-color);
 }
 .suggestions-list-item-text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 0.937rem;
     color: var(--primary-dark-color);
-    margin-bottom: 15px;
+    margin-bottom: 0.937rem;
 }
 .suggestions-list-item-text span {
     display: block;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .suggestions-list-item-text span a {
     text-decoration: none;
@@ -81,14 +81,14 @@
 }
 .suggestions-btn {
     align-self: flex-end;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .aside {
     flex-basis: 31%;
     border: 1px solid #dedbdb;
     vertical-align: top;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 0.937rem;
     color: var(--primary-dark-color);
 }
 .aside-title {
@@ -96,29 +96,29 @@
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 1.187rem;
     display: block;
     text-align: center;
     border-bottom: 1px solid #dedbdb;
 }
 .aside-content {
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
 }
 .aside-content form input {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
     display: block;
-    line-height: 25px;
+    line-height: 1.562rem;
     border: 1px solid #dedbdb;
     border-radius: 3px;
     width: 100%;
 }
 .aside-feautures {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .aside-feautures li {
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .aside-feautures li::before {
     content: '';
@@ -127,8 +127,8 @@
     background-repeat: no-repeat;
     background-color: var(--accent-color);
     display: inline-block;
-    width: 13px;
-    height: 13px;
+    width: 0.812rem;
+    height: 0.812rem;
     border-radius: 100%;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
