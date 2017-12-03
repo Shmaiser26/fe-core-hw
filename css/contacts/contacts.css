@@ -72,3 +72,7 @@
 .contact-form-buttons input:last-child {
 margin-right: 0px;
 }
+
+.contact-form-buttons input:hover {
+    background-color: #fcfafa;
+}

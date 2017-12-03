@@ -17,12 +17,22 @@ footer {
     display: flex;
     flex-basis: 80%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer-menu-item {
     margin-bottom: 0.625rem;
     list-style-type: none;
-    margin-right: 15%;
+    flex-basis: 11.875rem;
+}
+
+.footer-menu-item a {
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.footer-menu-item a:hover {
+    text-decoration: underline;
 }
 
 .contacts {
@@ -40,14 +50,6 @@ footer {
 }
 .contacts a:last-child {
     text-transform: lowercase;
-}
-.footer-menu-item a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-}
-.footer-menu-item a:hover {
-    text-decoration: underline;
 }
 
 .socials {
