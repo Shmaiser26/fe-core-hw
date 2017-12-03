@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.adress {
+    flex-basis: 70%;
+}
+
+.map {
+    display: block;
+    margin-right: 1.25rem;
+
+}
+
+.street {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    display: block;
+    color: #666565;
+    margin-bottom: 1.625rem;
+}
+.phones {
+    margin-bottom: 3.125rem;
+}
+.mail,
+.phone {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.812rem;
+    line-height: 1.187rem;
+    color: inherit;
+}
+.phones span a {
+    text-decoration: none;
+    color: inherit;
+}
+.phones span a:hover {
+    text-decoration: underline;
+}
+.phones .mail a {
+    color: #fa7e7e;
+}
+.contact-us {
+    flex-basis: 25%;
+}
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.312rem;
+    color: var(--primary-dark-color);
+    font-size: 0.812rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcfafa;
+    border: 1px solid #d4d0d0;
+    margin-bottom: 1rem;
+}
+.contact-form textarea {
+    resize: none;
+    height: 14.375rem;
+}
+.contact-form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+}
+.contact-form-buttons input {
+    max-width: 5rem;
+    border-radius: 5px;
+    margin-right: 1.25rem
+}
+.contact-form-buttons input:last-child {
+margin-right: 0px;
+}
