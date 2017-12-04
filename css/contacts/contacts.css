@@ -9,37 +9,42 @@
 .map {
     display: block;
     margin-right: 1.25rem;
-
 }
-
+.adress-item {
+    color: #666565;
+}
+.adress-item:first-child {
+    margin-bottom: 3rem;
+}
 .street {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
-    display: block;
-    color: #666565;
+    text-align: left;
     margin-bottom: 1.625rem;
 }
-.phones {
-    margin-bottom: 3.125rem;
-}
-.mail,
-.phone {
-    display: flex;
-    justify-content: space-between;
+
+.phone,
+.mail {
     font-size: 0.812rem;
     line-height: 1.187rem;
-    color: inherit;
 }
-.phones span a {
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.phone a {
     text-decoration: none;
     color: inherit;
 }
-.phones span a:hover {
+.phone a:hover {
     text-decoration: underline;
 }
-.phones .mail a {
+.mail a {
     color: #fa7e7e;
 }
+
 .contact-us {
     flex-basis: 25%;
 }
@@ -62,15 +67,15 @@
 .contact-form-buttons {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .contact-form-buttons input {
     max-width: 5rem;
     border-radius: 5px;
-    margin-right: 1.25rem
+    margin-right: 1.25rem;
 }
 .contact-form-buttons input:last-child {
-margin-right: 0px;
+    margin-right: 0;
 }
 
 .contact-form-buttons input:hover {
