@@ -51,7 +51,6 @@ header {
     line-height: 8.75rem;
     position: absolute;
 }
-
 /* SUBMENU */
 .submenu {
     list-style: none;
@@ -74,7 +73,7 @@ header {
     border-width: 0 2.5px 3px 2.5px;
     border-color: transparent transparent var(--primary-light-color) transparent;
     position: absolute;
-    top: 0;
+    top: 1px;
     left: 50%;
     transform: translate(-50%,-3px);
 }
@@ -93,4 +92,55 @@ header {
 }
 .submenu-item a:hover {
     color: var(--primary-dark-color);
+}
+
+/* MEDIA QUERIES */
+/* mobile 480px */
+
+@media (min-width: 480px) and (max-width: 768px) {
+    header {
+        display: block;
+        margin: 0;
+        padding-top: 1.43rem;
+    }
+    .logo {
+        display: block;
+        position: static;
+        margin: 0 auto;
+        width: 5rem;
+        height: 5rem;
+        line-height: 5rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .main-menu {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.25rem;
+        max-width: 14.375rem;
+    }
+    .menu-item {
+        flex-basis: 33%;
+    }
+    .menu-item:nth-child(3) {
+        margin-right: 0;
+    }
+    .menu-item:nth-child(4) {
+        margin-left: 0;
+    }
+    .menu-item > a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .submenu {
+        border-radius: 3px;
+        padding: 0.25rem;
+        top: 1.5rem;
+        z-index: 1;
+    }
+    .submenu-item a {
+        font-size: 0.875rem;
+        line-height: 0.875rem;
+    }
 }
