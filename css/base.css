@@ -42,7 +42,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
 }
-
 .btn:hover {
     border: 1px solid #000;
 }
@@ -52,4 +51,26 @@ h1 {
     color: var(--primary-light-color);
     text-align: center;
     margin-bottom: 2.18rem;
+}
+/* MEDIA QUERIES */
+/* tablet 768px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+        max-width: 48rem;
+    }
+    .main-content {
+        padding: 5.25rem 2.812rem 5.375rem;
+    }
+}
+
+/* MEDIA QUARIES */
+/* desktop */
+
+@media (min-width: 1023px) {
+    .wrapper {
+        max-width: 64rem;
+    }
+    .main-content {
+        padding: 6.125rem 4rem 8.75rem;
+    }
 }
