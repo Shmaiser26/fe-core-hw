@@ -17,11 +17,11 @@ img {
 
 .wrapper {
     background-color: var(--primary-light-color);
-    width: 64rem;
+    max-width: 30rem;
     margin: auto;
 }
 .main-content {
-    padding: 3.75rem 3.75rem 5.625rem;
+    padding: 3.75rem 2.5rem 4.75rem;
 }
 h1 {
     font-family: 'Pathway Gothic One', sans-serif;

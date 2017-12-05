@@ -1,33 +1,27 @@
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3.125rem 0;
-    margin: 3.125rem 0;
+    padding-top: 1.5rem;
+    padding-bottom: 3.75rem;
 }
 .main-menu {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     text-align: center;
     margin: auto;
     text-transform: uppercase;
-    position: relative;
+    max-width: 14.125rem;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 .menu-item {
     list-style: none;
-    position: relative;
+    flex-basis: 33%;
 }
-.menu-item:nth-child(3) {
-    margin-right: 5rem;
-}
-.menu-item:nth-child(4) {
-    margin-left: 5rem;
-}
+
 .menu-item > a {
+    display: block;
     text-decoration: none;
-    padding-right: 1.875rem;
-    padding-left: 1.875rem;
+    padding: 0.5rem;
     color: var(--primary-light-color);
 }
 .menu-item > a:hover {
@@ -39,17 +33,17 @@ header {
 .logo {
     text-decoration: none;
     background-color: var(--primary-light-color);
-    height: 8.75rem;
-    width: 8.75rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 100%;
     display: block;
     text-align: center;
+    margin: 0 auto 2rem;
     color: var(--primary-dark-color);
     text-transform: uppercase;
     font-family: 'Dorsa', sans-serif;
-    font-size: 3.75rem;
-    line-height: 8.75rem;
-    position: absolute;
+    font-size: 2.125rem;
+    line-height: 5rem;
 }
 /* SUBMENU */
 .submenu {
@@ -87,8 +81,8 @@ header {
 .submenu-item a {
     text-decoration: none;
     color: #6b7488;
-    font-size: 1.52rem;
-    line-height: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
 }
 .submenu-item a:hover {
     color: var(--primary-dark-color);
@@ -97,50 +91,4 @@ header {
 /* MEDIA QUERIES */
 /* mobile 480px */
 
-@media (min-width: 480px) and (max-width: 768px) {
-    header {
-        display: block;
-        margin: 0;
-        padding-top: 1.43rem;
-    }
-    .logo {
-        display: block;
-        position: static;
-        margin: 0 auto;
-        width: 5rem;
-        height: 5rem;
-        line-height: 5rem;
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-    .main-menu {
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        font-size: 1.25rem;
-        max-width: 14.375rem;
-    }
-    .menu-item {
-        flex-basis: 33%;
-    }
-    .menu-item:nth-child(3) {
-        margin-right: 0;
-    }
-    .menu-item:nth-child(4) {
-        margin-left: 0;
-    }
-    .menu-item > a {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .submenu {
-        border-radius: 3px;
-        padding: 0.25rem;
-        top: 1.5rem;
-        z-index: 1;
-    }
-    .submenu-item a {
-        font-size: 0.875rem;
-        line-height: 0.875rem;
-    }
-}
+@media (min-width: 480px) and (max-width: 768px) {}

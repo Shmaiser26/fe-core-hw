@@ -1,30 +1,30 @@
 footer {
     position: relative;
-    width: 64rem;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 200;
     background-color: #30455b;
     color: #ffffff;
-    padding: 2.5rem 8.125rem;
-    display: flex;
     justify-content: space-between;
+    padding: 1.25rem 5rem 1.875rem;
 }
-
 .footer-menu {
     display: flex;
-    flex-basis: 80%;
+    flex-basis: 62.5%;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 1.625rem;
 }
 .footer-menu-item {
     margin-bottom: 0.625rem;
     list-style-type: none;
-    flex-basis: 11.875rem;
+    flex-basis: 33%;
 }
-
+.footer-menu-item:nth-child(n+3) {
+    margin-bottom: 0;
+}
 .footer-menu-item a {
     text-align: left;
     display: block;
@@ -34,10 +34,9 @@ footer {
 .footer-menu-item a:hover {
     text-decoration: underline;
 }
-
 .contacts {
-    flex-basis: 20%;
-    font-size: 1.125rem;
+    display: flex;
+    justify-content: space-between;
 }
 .contacts h5 {
     font-weight: inherit;
@@ -51,7 +50,6 @@ footer {
 .contacts a:last-child {
     text-transform: lowercase;
 }
-
 .socials {
     margin: 0 auto;
     padding: 1.56rem 0;
@@ -64,13 +62,10 @@ footer {
     border-radius: 100%;
     background-color: var(--primary-light-color);
     margin-right: 0.625rem;
-    width: 1rem;
-    height: 1rem;
 }
 .social-icon:last-child {
     margin-right: 0;
 }
-
 .twitter {
     background: url("../img/social-icon-sprites.png") -34px -34px;
 }
@@ -82,23 +77,23 @@ footer {
     background: url("../img/social-icon-sprites.png") 4px 3px;
 }
 .linkedin {
-        background: url("../img/social-icon-sprites.png") 0px -33px;
+    background: url("../img/social-icon-sprites.png") 0 -33px;
 }
 .socials:last-child {
     margin-right: 0;
 }
 .move-up {
     display: block;
-    width: 1.875rem;
-    height: 1.875rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background-color: #38afe5;
     border-radius: 100%;
     background-image: url("../img/small-arr-top.svg");
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: -20px;
-    right: 20px;
+    top: -1.25rem;
+    right: 1.25rem;
     transform: translateY(-100%);
 }
 .move-up:hover {
