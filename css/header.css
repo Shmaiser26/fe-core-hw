@@ -110,6 +110,7 @@ header {
     }
     .submenu {
         top: 2.5rem;
+        background-color: #f2f2f3;
     }
     .submenu-item a {
         font-size: 1.062rem;
