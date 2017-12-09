@@ -14,14 +14,18 @@ img {
     background-repeat: no-repeat;
     background-color: #cccccc;
 }
-
-.wrapper {
-    background-color: var(--primary-light-color);
-    max-width: 30rem;
-    margin: auto;
+@media (min-width: 992px) and (max-width: 1199px){
+    .wrapper {
+    max-width: 720px;
+    }
 }
+
+
+
+
 .main-content {
     padding: 3.75rem 2.5rem 4.75rem;
+    background-color: var(--primary-light-color);
 }
 h1 {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -55,9 +59,6 @@ h1 {
 /* MEDIA QUERIES */
 /* tablet 768px */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .wrapper {
-        max-width: 48rem;
-    }
     .main-content {
         padding: 5.25rem 2.812rem 5.375rem;
     }
@@ -67,9 +68,6 @@ h1 {
 /* desktop */
 
 @media (min-width: 1023px) {
-    .wrapper {
-        max-width: 64rem;
-    }
     .main-content {
         padding: 6.125rem 4rem 8.75rem;
     }
