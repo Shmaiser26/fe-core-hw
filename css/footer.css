@@ -7,12 +7,10 @@ footer {
     font-weight: 200;
     background-color: #30455b;
     color: #ffffff;
-    justify-content: space-between;
     padding: 1.25rem 5rem 1.875rem;
 }
 .footer-menu {
     display: flex;
-    flex-basis: 62.5%;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 1.625rem;
@@ -105,15 +103,13 @@ footer {
 /* MEDIA QUERIES */
 /* tablet 768px */
 
-@media(min-width: 768px) and (max-width: 1023px) {
+@media(min-width: 768px) and (max-width: 1200px) {
     footer {
         font-size: 1rem;
         font-weight: 200;
         background-color: #30455b;
         color: #ffffff;
-        justify-content: space-between;
         padding: 2.5rem 5.25rem 2.5rem 2.875rem;
-        display: flex;
     }
     .footer-menu {
         display: flex;
@@ -136,15 +132,14 @@ footer {
     }
 }
 
-@media(min-width: 1023px) {
+@media(min-width: 1200px) {
     footer {
         font-size: 1rem;
         font-weight: 200;
         background-color: #30455b;
         color: #ffffff;
-        justify-content: space-between;
-        padding: 2.5rem 8.75rem 2rem 8.625rem;
-        display: flex;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
     }
     .footer-menu {
         display: flex;
